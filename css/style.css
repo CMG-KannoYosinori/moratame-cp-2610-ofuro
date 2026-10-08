@@ -199,8 +199,24 @@ i[id] {
   width: 100%;
   height: auto;
 }
+.series-heading {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.series-heading__image {
+  width: 52rem;
+  height: auto;
+}
 @media screen and (min-width: 768px) {
   /* PC用 */
+  .series-heading {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+  }
+  .series-heading__image {
+    width: 36rem;
+  }
   .pickup {
     margin-top: 3rem;
   }
